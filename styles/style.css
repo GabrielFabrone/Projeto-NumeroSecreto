@@ -1,0 +1,68 @@
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-de-fundo: #F5E9CF;
+    --cor-primária: #E96479;
+    --cor-secundária: #7DB9B6;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    background-color: var(--cor-de-fundo);
+    min-height: 100vh;
+    color: var(--cor-primária);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 4rem;
+    color: var(--cor-secundária);
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 1rem 0 2.5rem 0;
+}
+
+.mensagem {
+    font-size: 1.5rem;
+}
+
+.box {
+    border: 2px solid var(--cor-secundária);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 1.3rem;
+}
+
+.dica {
+    margin: 2rem 0;
+    font-size: .8rem;
+}
+
+.btn-jogar {
+    text-align: center;
+    border: 1px solid var(--cor-secundária);
+    box-shadow: 1px 1px 2px var(--cor-secundária);
+    color: white;
+    background-color: var(--cor-primária);
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    background-color: var(--cor-secundária);
+    border-color: var(--cor-primária);
+    transition: .25s;
+}
